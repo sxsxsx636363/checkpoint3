@@ -11,6 +11,6 @@ Readport is designed by connecting the decoder output,each register output, and 
 ## e.
 dffe_reg.v is a 32 bit dffe.
 ## f.
-In the main regfile, it connect 32 registers with a writeport and two readport to realized the 32 32bits file register function.
+In the main regfile, it connect 32 registers with a writeport and two readport to realized the 32 32bits file register function. For reg 0, it will always keep at 0.
 ## g.
 testbanch file is also included.
